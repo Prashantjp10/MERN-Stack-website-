@@ -1,0 +1,93 @@
+.about-body{
+  background-color: black;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.about-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.AboutImage {
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .AboutImage .aboutus-title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .aboutus-title span.img-txt {
+    background-color: #333;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+  }
+  
+  .about-titles h3 {
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font: 1.3rem;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    border-bottom: solid 1px red;
+    color: #fff;
+  }
+  
+  .text-box {
+    text-align: center;
+    padding: 3rem 3rem;
+    text-align: justify;
+    color: #fff;
+  }
+  .msg-box{
+      /* font-size: 20px; */
+      font-weight: 501;
+      color: #fff;
+      letter-spacing: 2px;
+
+  }
+  .text-msg {
+    text-align: center;
+    padding: 3rem 2rem;
+    text-align: justify;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     letter-spacing: 2px;
+  }
+  .about-titles h4 {
+    /* border-bottom: solid 1px red; */
+    text-align: center;
+    padding: 10px;
+    font-size:16 px;
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  @media screen and (max-width >=768px) {
+    .AboutImage {
+      flex: 50%;
+      max-width: 50%;
+    }
+    
+}
+  
+  @media screen and (max-width >=576px) {
+    .AboutImage {
+      width: 100%;
+      max-width: 200px;
+  height: auto;
+    }
+  }
+  
+  

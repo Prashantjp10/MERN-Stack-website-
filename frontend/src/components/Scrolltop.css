@@ -1,0 +1,24 @@
+.scrolls {
+    color: black;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    border-radius: 100%;
+    font-size: 20px;
+    position: fixed;
+    left: 30px;
+    bottom: 37px;
+    cursor: pointer;
+    background-color:gainsboro;
+  }
+  .scrolls svg {
+    width: 40px;
+    margin: 6px auto;
+    display: block;
+    /* verticl-align: middle; */
+    line-height: 27px;
+    height: 39px;
+  }
+  .scrolls:hover {
+    background-color: #00bf6f;
+  }
